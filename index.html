@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevOps Lifecycle Diagram</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      margin-top: 20px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 40px;
+    }
+    .stage {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin: 15px;
+      width: 200px;
+      height: 180px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .stage h3 {
+      margin-bottom: 10px;
+      color: #007acc;
+    }
+  </style>
+</head>
+<body>
+  <h1>DevOps Lifecycle</h1>
+  <div class="container">
+    <div class="stage">
+      <h3>Plan</h3>
+      <p>Define project goals, scope, and backlog. Plan team tasks and timelines collaboratively.</p>
+    </div>
+    <div class="stage">
+      <h3>Develop</h3>
+      <p>Code is written and version-controlled. Collaboration and automation tools are used here.</p>
+    </div>
+    <div class="stage">
+      <h3>Build</h3>
+      <p>Code is compiled and packaged. Dependencies are resolved and build artifacts are created.</p>
+    </div>
+    <div class="stage">
+      <h3>Test</h3>
+      <p>Automated and manual testing is performed to ensure quality and functionality.</p>
+    </div>
+    <div class="stage">
+      <h3>Release</h3>
+      <p>Approved builds are prepared for release. Change management and approvals happen here.</p>
+    </div>
+    <div class="stage">
+      <h3>Deploy</h3>
+      <p>Code is deployed to production or staging environments using CI/CD pipelines.</p>
+    </div>
+    <div class="stage">
+      <h3>Operate</h3>
+      <p>Applications are run in production. Infrastructure is managed and optimized.</p>
+    </div>
+    <div class="stage">
+      <h3>Monitor</h3>
+      <p>Application performance and usage are monitored to detect issues and improve operations.</p>
+    </div>
+  </div>
+</body>
+</html>
